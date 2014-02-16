@@ -1,0 +1,646 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-n91uxw');
+	src:url('../fonts/icomoon.eot?#iefix-n91uxw') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-n91uxw') format('woff'),
+		url('../fonts/icomoon.ttf?-n91uxw') format('truetype'),
+		url('../fonts/icomoon.svg?-n91uxw#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pushpin:before {
+	content: "\e600";
+}
+.icon-location:before {
+	content: "\e601";
+}
+.icon-bullhorn:before {
+	content: "\e602";
+}
+.icon-dashboard:before {
+	content: "\e603";
+}
+.icon-heart:before {
+	content: "\e604";
+}
+.icon-smiley:before {
+	content: "\e605";
+}
+.icon-home:before {
+	content: "\e606";
+}
+.icon-file:before {
+	content: "\e607";
+}
+.icon-play:before {
+	content: "\e608";
+}
+.icon-cog:before {
+	content: "\e609";
+}
+.icon-bubbles:before {
+	content: "\e60a";
+}
+.icon-twitter:before {
+	content: "\e60b";
+}
+.icon-facebook:before {
+	content: "\e60c";
+}
+.icon-github:before {
+	content: "\e60d";
+}
+
+@font-face {
+    font-family: 'proxima_novabold';
+    src: url('../fonts/proximanova-bold-webfont-webfont-webfont.eot');
+    src: url('../fonts/proximanova-bold-webfont-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold-webfont-webfont-webfont.woff') format('woff'),
+         url('../fonts/proximanova-bold-webfont-webfont-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-bold-webfont-webfont-webfont.svg#proxima_novabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/proximanova-light-webfont-webfont-webfont.eot');
+    src: url('../fonts/proximanova-light-webfont-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-light-webfont-webfont-webfont.woff') format('woff'),
+         url('../fonts/proximanova-light-webfont-webfont-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-light-webfont-webfont-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('../fonts/proximanova-regular-webfont-webfont-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular-webfont-webfont-webfont.woff') format('woff'),
+         url('../fonts/proximanova-regular-webfont-webfont-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-regular-webfont-webfont-webfont.svg#proxima_novaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+hr { display: block; height: 2px;
+    border: 0; border-top:2px solid #efefef;
+    margin: 1em 0; padding: 0; }
+
+
+
+/* ----------------- Special Fixes ------------------- */
+
+* { box-sizing: border-box; -webkit-border-box; -moz-border-box; }
+
+.v-align-m { vertical-align: middle; }
+
+
+.border_box {
+	box-sizing :border-box;
+	-moz-box-sizing: border-box;
+}
+
+.cl:after {
+	content: "";
+	clear: both;
+	display:block;
+}
+
+.h-valign:before {
+  content:"";
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+}
+.h-valign > * {
+	display: inline-block;
+}
+
+/* ----------------- Text  ------------------- */
+
+h1 {font-size: 50px;}
+h5 {font-size: 24px;}
+h6 {font-size: 24px;}
+.bold {
+	font-family: "proxima_novabold";
+font-weight: 600;}
+
+.light { 
+	font-family: "proxima_novalight";
+	font-weight: 300;}
+
+.slogan {text-shadow: 1px 1px 1px rgba(0,0,0,.6)
+}
+.slogan span {
+	font-weight: 100;
+}
+.big {
+	font-size: 30px;
+}
+.normal {
+	font-size: 20px;
+}
+.caption {
+	font-size: 15px;
+	color: #999;
+	line-height: 30px;
+	font-weight: 100;
+}
+
+.textleft {
+	text-align: left;
+}
+/* ----------------- Text Colors ------------------- */
+
+.blue {
+	background: #1adefe;
+}
+
+.grey {
+	font-size: 12px;
+	color: #999;
+}
+
+.lightgrey {
+	color: #bbb;
+}
+
+.white {
+	color: #fff;
+}
+
+/* ----------------- Display ------------------- */
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline-block li {
+	display: inline-block;
+}
+
+/* ----------------- Positioning ------------------- */
+.center {
+	text-align: center;
+	margin: auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* ----------------- Widths ------------------- */
+
+.width30 {
+	width: 30%;
+}
+
+.width45 {
+	width: 40%;
+}
+
+.width40 {
+	width: 40%;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.width70 {
+	width: 70%;
+}
+
+
+/* ----------------- Radius ------------------- */
+
+.radius50 {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+
+.radius6 {
+	border-radius: 6px;
+}
+
+/* ----------------- Paddings and Margins ------------------- */
+
+.padding {
+	padding: 40px;
+}
+
+.paddingright {
+	padding-right: 10px;
+}
+
+.semi_padding {
+	padding:20px;
+}
+
+.margin20 {
+	margin: 20px;
+}
+
+.semi_margin_left {
+	margin-left: 20px;
+}
+.semi_margin_right {
+	margin-right: 20px;
+}
+.padding_top {
+	padding-top: 40px;
+}
+.semi_padding_top {
+	padding-top: 20px;
+}
+.semi_padding_bottom {
+	padding-bottom: 20px;
+}
+
+/* ----------------- Page Layout ------------------- */
+
+.column1 {
+	width: 64%;
+	margin: auto;
+}
+.column2 {
+	width: 33%;
+	margin: auto;
+}
+
+/* ----------------- Page Layout - Header ------------------- */
+
+
+.header {
+	width: 100%;
+	background: #f0f0f0;
+	padding: 30px 0 30px 0;
+}
+
+.header_container {
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.scroll img {
+	width: 110px;
+	border-radius: 6px;
+	margin-right: 20px;
+}
+
+.darkgrey {
+	background: #222;
+	height:18px;
+	background: #222 url('../images/grey.png') no-repeat 180px 20px;
+}
+
+/* ----------------- Badges ------------------- */
+
+.badge {
+	border-radius: 2px;
+	background: #e66700;
+	color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 5px 6px;
+	vertical-align: middle;
+}
+.badge2 {
+	border-radius: 2px;
+	background: #ccc;
+	color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 5px 6px;
+	vertical-align: middle;
+}
+
+.badge2:hover {
+	background: #00b9d9;
+}
+.badge2 i {
+	color: #fff;
+}
+
+
+/* ----------------- Tooltip ------------------- */
+
+.tooltip {
+	display: inline;
+	position: relative;
+}
+.tooltip {
+    cursor: help;
+}
+ 
+.tooltip::after {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px 8px 8px 0px;
+    color: #FFF;
+    content: attr(data-tooltip); 
+    margin-top: -24px;
+    opacity: 0; 
+    padding: 3px 7px;
+    position: absolute;
+    visibility: hidden; 
+    transition: all 0.4s ease-in-out; 
+}
+         
+.tooltip:hover::after {
+    opacity: 1; 
+    visibility: visible;
+    z-index: 9999;
+}
+
+/* ----------------- Carousel ------------------- */
+
+.teaser {
+	background: url('../images/bg.png') 0 0;
+	background-size: cover;
+	height: 350px;
+	position: relative;
+}
+
+.cr-left {
+	opacity: 0.5;
+	position: absolute;
+	bottom:0px;
+	top:0px;
+	left:0px;
+	background: url('../images/left.png') no-repeat center center;
+}
+
+.cr-left:hover, .cr-right:hover {
+	opacity: 1;
+}
+.cr-right {
+	opacity: 0.5;
+	background: url('../images/right.png') no-repeat center center;
+}
+.cr-left a, .cr-right a {
+	text-indent: -9000px!important;
+	width: 50px;
+	display: block;
+}
+.cr-right {
+	position: absolute;
+	bottom:0px;
+	top:0px;
+	right:0px;
+}
+.carousel1 {
+	box-sizing: border-box; }
+
+.carousel2 {
+	margin-top: 30px; 
+}
+
+/* ----------------- Buttons ------------------- */
+
+.btn1 {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 20px 30px;
+	background: #f16a19;
+	border: 0px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn2 {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 20px 30px;
+	background: #0c5374;
+	border: 0px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn1:hover {
+	background: #bf5014;
+}
+
+
+/* ----------------- Search ------------------- */
+
+input[type=text] { 
+	float: none;
+	padding-left: 40px;
+	height: 50px;
+	width: 200px;	         
+	border: 1px solid #ccc;  
+	background: #fff;         
+	border-radius: 6px;
+	background:#fff url('../images/search.png') left center no-repeat;
+	color: #999;
+	font-size: 14px;
+}
+
+.images img {
+	width: 140px;
+	margin-right: 5px;
+	border-radius: 6px;
+}
+
+.images img:hover {
+
+}
+
+/* ----------------- Menu ------------------- */
+
+.menu {
+	margin-left: 40px;
+} 
+.menu li > a{
+	color: #333;
+	text-decoration: none;
+	transition: all 0.3s;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.menu li {
+	color: #333;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	vertical-align: middle;
+	border-right: 1px solid #ddd;
+}
+.menu li > a:hover {
+	color: #999;
+	@keyframe 
+}
+.menu li:last-child {
+	border: 0px;
+}
+
+/* ----------------- Specific ------------------- */
+
+.courses  li{
+	padding: 5px 0 5px 0;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.sub{
+	font-size: 18px;
+	padding-bottom: 6px;
+}
+
+.circle {
+	width: 30px;
+	height: 30px;
+	background:#fff;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.footermenu li {
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #FFF;
+	font-weight: 600;
+	border-right: 1px solid #333;
+}
+
+.share{
+	background: #f0f0f0;
+	margin-top:10px;
+	margin-bottom: 20px;
+
+}
+.share h2 {
+	margin-bottom:20px;
+}
+.share i {
+	padding:10px;
+}
+
+.related {
+	border-top: 1px dotted #999;
+	border-bottom: 1px dotted #999;
+	margin-top: 10px;
+	height: 110px;
+}
+
+.footer {
+	margin-top: 30px;
+	height: 90px;
+	}
+
+/* ----------------- Social & Ratings ------------------- */
+
+.progress_outer {
+	display: inline-block;
+	vertical-align: middle;
+	width:120px;
+	height: 14px;
+	line-height: 14px;
+	border-radius: 16px;
+	background: #f0f0f0;
+}
+
+.progress_inner {
+	height: 14px;
+	line-height: 14px;
+	border-radius: 16px;
+	background: #00b9d9;
+	vertical-align: middle;
+}
+.progresstitle {
+	margin: 0px 0px 0px 3;
+	font-size: 30px;
+
+}
+.smallavatar {
+	width: 90px;
+	margin-left: 20px;
+	border-radius: 50%;
+	display:inline-block;
+}
+.rating_outer {
+	border-radius: 16px;
+	background: #f0f0f0;
+}
+.rating_inner {
+	border-radius: 16px;
+	background: #00b9d9;
+}
+.ratings {
+	background: #f0f0f0;
+	padding: 30px;
+	border-radius: 6px;
+}
+
+.social li{
+	width: 30%;
+	margin-left: 40px;
+	background: #fff;
+	margin-bottom: 40px;
+	padding: 10px 0 10px 0;
+
+}
+.social li {
+	text-align: left;
+}
+
+.social li:first-child {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.social li:nth-child(4) {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.courses li {
+	padding-bottom: 12px;
+}
